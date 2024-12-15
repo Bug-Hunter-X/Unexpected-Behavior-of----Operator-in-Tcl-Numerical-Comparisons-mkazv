@@ -1,0 +1,1 @@
+proc correctProc {x} {if {$x == 0} {return 1} {return 0} } #This will not work either.proc correctProc {x} {if {[expr {$x == 0}]} {return 1} {return 0}} 
